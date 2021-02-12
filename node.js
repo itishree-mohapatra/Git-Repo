@@ -5,3 +5,4 @@ function onRequest(request, response)
   response.write('Hello world');
   response.end();
 }
+http.createServer(onRequest).listen(8000);
